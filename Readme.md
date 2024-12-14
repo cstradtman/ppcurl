@@ -24,13 +24,13 @@ pip install requests pyyaml tabulate
 ## Usage
 
 ```bash
-python script.py [options] URL [hostname]
+python ppcurl.py [options] URL [hostname]
 ```
 
 ### Positional Arguments
 
 - `URL`: The URL to fetch.
-- `hostname` (optional): The hostname to resolve.
+- `hostname` (optional): The hostname to resolve. This allows forcing the connection through the named proxy
 
 ### Optional Arguments
 
